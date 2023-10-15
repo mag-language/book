@@ -4,3 +4,7 @@ language = "en"
 multilingual = false
 src = "src"
 title = "Mag Documentation"
+
+[output.html]
+additional-css = ["theme/custom.css"]
+sidebar = true
