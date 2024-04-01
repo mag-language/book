@@ -3,6 +3,11 @@
 :root {
     --bg: #EEE;
     --fg: #555;
+
+    code {
+      border-radius: 6px;
+      padding: 14px 12px;
+    }
 }
 
 @media (prefers-color-scheme: dark) {
