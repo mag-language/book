@@ -1,9 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&family=Roboto+Mono:wght@300;400;600&display=swap');
 
+:root {
+    --bg: #EEE;
+    --fg: #555;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #222;
+  }
+}
+
 body {
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 17px;
-}
+} 
 
 .sidebar {
     /* width: 400px; */
