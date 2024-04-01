@@ -4,9 +4,11 @@ Mag is a dynamic, object-oriented language with patterns, classes and multiple d
 
 This book aims to offer a comprehensive, detailed and complete documentation of the language and its implementation, from setting up the development environment to deploying an application, regardless if it's a microcontroller, a laptop or a cloud machine.
 
+Without further ado, let's explore some language features.
+
 ## Multiple Dispatch
 
-Without further ado, let's explore some language features. Using multiple dispatch, a simple Fibonacci function could look like this:
+Using multiple dispatch, a simple Fibonacci function could look like this:
 
 ```mag
 def fib(0) 0
