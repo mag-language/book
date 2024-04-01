@@ -4,7 +4,9 @@ Mag is a dynamic, object-oriented language with patterns, classes and multiple d
 
 This book aims to offer a comprehensive, detailed and complete documentation of the language and its implementation, from setting up the development environment to deploying an application, regardless if it's a microcontroller, a laptop or a cloud machine.
 
-Without further ado, let's explore some language features.
+Note though that this book does not contain any API documentation, which is hosted on [docs.rs] in order to keep the documentation of the API surface as close to the implementation as possible.
+
+Without further ado, let's explore a code snippet which implements a simple Fibonacci function.
 
 ## Multiple Dispatch
 
